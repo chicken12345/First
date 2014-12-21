@@ -32,13 +32,17 @@
                           </block>
                         </value>
                         <next>
-                          <block type="oled_cleardisplay" id="38">
+                          <block type="movement_stop" id="187">
                             <next>
-                              <block type="oled_color" id="53">
-                                <field name="OBJECT">GREEN</field>
+                              <block type="oled_cleardisplay" id="38">
                                 <next>
-                                  <block type="oled_color" id="62">
-                                    <field name="OBJECT">BLACK</field>
+                                  <block type="oled_color" id="53">
+                                    <field name="OBJECT">GREEN</field>
+                                    <next>
+                                      <block type="oled_color" id="62">
+                                        <field name="OBJECT">BLACK</field>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
