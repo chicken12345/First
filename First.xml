@@ -47,21 +47,4 @@
       </block>
     </next>
   </block>
-  <block type="controls_if" id="12" inline="false" x="699" y="-11">
-    <value name="IF0">
-      <block type="sensor_button" id="13">
-        <field name="OBJECT">UP</field>
-      </block>
-    </value>
-    <statement name="DO0">
-      <block type="oled_color" id="14">
-        <field name="OBJECT">GREEN</field>
-      </block>
-    </statement>
-    <next>
-      <block type="oled_color" id="15">
-        <field name="OBJECT">BLACK</field>
-      </block>
-    </next>
-  </block>
 </xml>
