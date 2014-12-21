@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="variables_set" id="124" inline="true" x="417" y="-1">
-    <field name="VAR">x</field>
+    <field name="VAR">item</field>
     <value name="VALUE">
       <block type="math_number" id="139">
         <field name="NUM">1000</field>
@@ -10,7 +10,7 @@
       <block type="robot_delay" id="118" inline="true">
         <value name="DELAY">
           <block type="variables_get" id="132">
-            <field name="VAR">x</field>
+            <field name="VAR">item</field>
           </block>
         </value>
         <next>
@@ -19,7 +19,7 @@
               <block type="robot_delay" id="140" inline="true">
                 <value name="DELAY">
                   <block type="variables_get" id="141">
-                    <field name="VAR">x</field>
+                    <field name="VAR">item</field>
                   </block>
                 </value>
                 <next>
@@ -28,7 +28,7 @@
                       <block type="robot_delay" id="142" inline="true">
                         <value name="DELAY">
                           <block type="variables_get" id="143">
-                            <field name="VAR">x</field>
+                            <field name="VAR">item</field>
                           </block>
                         </value>
                         <next>
