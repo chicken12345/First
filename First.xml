@@ -1,5 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="variables_set" id="124" inline="true" x="405" y="-87">
+  <block type="variables_get" id="146" x="425" y="-28">
+    <field name="VAR">item</field>
+  </block>
+  <block type="variables_set" id="124" inline="true" x="417" y="-1">
     <field name="VAR">item</field>
     <value name="VALUE">
       <block type="math_number" id="139">
@@ -55,8 +58,5 @@
         </next>
       </block>
     </next>
-  </block>
-  <block type="variables_get" id="146" x="299" y="-70">
-    <field name="VAR">item</field>
   </block>
 </xml>
