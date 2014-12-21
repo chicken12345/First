@@ -1,38 +1,38 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="variables_set" id="124" inline="true" x="417" y="-1">
+  <block type="variables_set" id="1" inline="true" x="417" y="-1">
     <field name="VAR">x</field>
     <value name="VALUE">
-      <block type="math_number" id="139">
+      <block type="math_number" id="2">
         <field name="NUM">100000</field>
       </block>
     </value>
     <next>
-      <block type="robot_delay" id="118" inline="true">
+      <block type="robot_delay" id="3" inline="true">
         <value name="DELAY">
-          <block type="variables_get" id="132">
+          <block type="variables_get" id="4">
             <field name="VAR">x</field>
           </block>
         </value>
         <next>
-          <block type="robot_delay" id="140" inline="true">
+          <block type="robot_delay" id="5" inline="true">
             <value name="DELAY">
-              <block type="variables_get" id="141">
+              <block type="variables_get" id="6">
                 <field name="VAR">x</field>
               </block>
             </value>
             <next>
-              <block type="robot_delay" id="142" inline="true">
+              <block type="robot_delay" id="7" inline="true">
                 <value name="DELAY">
-                  <block type="variables_get" id="143">
+                  <block type="variables_get" id="8">
                     <field name="VAR">x</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_stop" id="187">
+                  <block type="movement_stop" id="9">
                     <next>
-                      <block type="oled_cleardisplay" id="38">
+                      <block type="oled_cleardisplay" id="10">
                         <next>
-                          <block type="oled_color" id="62">
+                          <block type="oled_color" id="11">
                             <field name="OBJECT">BLACK</field>
                           </block>
                         </next>
@@ -47,19 +47,19 @@
       </block>
     </next>
   </block>
-  <block type="controls_if" id="218" inline="false" x="699" y="-11">
+  <block type="controls_if" id="12" inline="false" x="699" y="-11">
     <value name="IF0">
-      <block type="sensor_button" id="212">
+      <block type="sensor_button" id="13">
         <field name="OBJECT">UP</field>
       </block>
     </value>
     <statement name="DO0">
-      <block type="oled_color" id="227">
+      <block type="oled_color" id="14">
         <field name="OBJECT">GREEN</field>
       </block>
     </statement>
     <next>
-      <block type="oled_color" id="278">
+      <block type="oled_color" id="15">
         <field name="OBJECT">BLACK</field>
       </block>
     </next>
