@@ -56,4 +56,7 @@
       </block>
     </next>
   </block>
+  <block type="variables_get" id="146" x="299" y="-70">
+    <field name="VAR">item</field>
+  </block>
 </xml>
